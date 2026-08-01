@@ -11,10 +11,10 @@ export default function KarmaStudiosWeb() {
   const galleryItems = [
     { image: '/YEAR1.png', text: '1. Year 1', link: 'https://docs.google.com/document/d/13YgOBEQVWJIoCv_Jbr1TC8HDBFn-AL6N7TQcA0s4oyI/edit?usp=sharing' },
     { image: '/YEAR2.png', text: '2. Year 2', link: 'https://docs.google.com/document/d/1qmi49hiTH0RYKvthmIxif1rI5pbYCuLTXY2YMF_DQZI/edit?usp=sharing' },
-    { image: '/TOKYO.jpg', text: '3. Tokyo', link: 'https://docs.google.com/document/d/1deFiqJK3iqt9dZrgG2vAVUKYishelQQllcFtQGbpyAE/edit?usp=sharing' },
-    { image: '/SPAIN.jpg', text: '4. Spain', link: 'https://docs.google.com/document/d/1HXC546ZI4mFK_MWzGCKPOXUl0uElpeW3VXZ9cHWI57g/edit?usp=sharing' },
-    { image: '/YEAR3.jpg', text: '5. Year 3', link: 'https://docs.google.com/document/d/1IvgAjfoxpI3yKK0DsXOHwcC5GgPnT92HoF58mHJLCgM/edit?usp=sharing' },
-    { image: '/OKI.jpg', text: '6. Oki', link: 'https://docs.google.com/document/d/1wyZBxhMsHU3UaKsXL0hbQ0JrMeh7I5pqWmey5yvyKEo/edit?usp=sharing' },
+    { image: '/TOKYO.png', text: '3. Tokyo', link: 'https://docs.google.com/document/d/1deFiqJK3iqt9dZrgG2vAVUKYishelQQllcFtQGbpyAE/edit?usp=sharing' },
+    { image: '/SPAIN.png', text: '4. Spain', link: 'https://docs.google.com/document/d/1HXC546ZI4mFK_MWzGCKPOXUl0uElpeW3VXZ9cHWI57g/edit?usp=sharing' },
+    { image: '/YEAR3.png', text: '5. Year 3', link: 'https://docs.google.com/document/d/1IvgAjfoxpI3yKK0DsXOHwcC5GgPnT92HoF58mHJLCgM/edit?usp=sharing' },
+    { image: '/OKI.png', text: '6. Oki', link: 'https://docs.google.com/document/d/1wyZBxhMsHU3UaKsXL0hbQ0JrMeh7I5pqWmey5yvyKEo/edit?usp=sharing' },
     { image: '/YEAR4.png', text: '7. Year 4', link: 'https://docs.google.com/document/d/1dF8JN3KTNZLNhV7sFv6qO3Otewstoe8SAoFlKxKfdFI/edit?usp=sharing' }
   ];
 
@@ -81,7 +81,7 @@ export default function KarmaStudiosWeb() {
             
             {/* Novela 1 */}
             <div className="flex flex-col md:flex-row gap-8 bg-black/30 p-6 rounded-2xl border border-white/5">
-              <img src="/BAJOESTRELLA1.0.jpg" alt="Bajo el Brillo de la Estrella" className="w-full md:w-64 rounded-xl shadow-lg" />
+              <img src="/BAJOESTRELLA1.0.png" alt="Bajo el Brillo de la Estrella" className="w-full md:w-64 rounded-xl shadow-lg" />
               <div className="space-y-4 flex flex-col justify-center">
                 <h3 className="text-2xl font-bold text-white">Bajo el Brillo de la Estrella</h3>
                 <p className="text-gray-300">Dos actores. Un muro. Y una verdad que no admite guiones.<br/>En el deslumbrante mundo de las idols, Ai y Alex descubren que el amor más real no sucede ante las cámaras, sino en el silencio de una habitación bañada en luces LED. Un lenguaje secreto de golpes en la pared y un refugio de color azul eléctrico son los únicos testigos de un incendio a fuego lento. Esta es la historia de cómo dos personas aprendieron a apagar los focos para empezar a brillar de verdad. Porque cuando las luces se apagan, comienza la vida.</p>
@@ -95,7 +95,7 @@ export default function KarmaStudiosWeb() {
 
             {/* Novela 2 */}
             <div className="flex flex-col md:flex-row gap-8 bg-black/30 p-6 rounded-2xl border border-white/5">
-              <img src="/GRIS.jpg" alt="El gris perfecto" className="w-full md:w-64 rounded-xl shadow-lg" />
+              <img src="/GRIS.png" alt="El gris perfecto" className="w-full md:w-64 rounded-xl shadow-lg" />
               <div className="space-y-4 flex flex-col justify-center">
                 <h3 className="text-2xl font-bold text-white">El gris perfecto</h3>
                 <p className="text-gray-300">Alex vive para el fútbol de barrio y los recreos con sus amigos. Ai huye de las luces de Japón buscando una vida normal. En los pasillos del María Inmaculada, lo que empieza como un encuentro improbable se convierte en un refugio contra el mundo.</p>
@@ -109,7 +109,7 @@ export default function KarmaStudiosWeb() {
 
             {/* Novela 3 */}
             <div className="flex flex-col md:flex-row gap-8 bg-black/30 p-6 rounded-2xl border border-white/5">
-              <img src="/SOMBRAS.jpg" alt="Donde Mueren las Sombras" className="w-full md:w-64 rounded-xl shadow-lg" />
+              <img src="/SOMBRAS.png" alt="Donde Mueren las Sombras" className="w-full md:w-64 rounded-xl shadow-lg" />
               <div className="space-y-4 flex flex-col justify-center">
                 <h3 className="text-2xl font-bold text-white">Donde Mueren las Sombras</h3>
                 <p className="text-gray-300">Un rugido en el campo. Una estrella en el alma. Un pacto que desafió al mundo. Alex, el "León de Antequera", lucha por su carrera en el fútbol mientras Ai, una misteriosa estudiante japonesa, huye de una fama que la asfixia. Entre goles históricos en La Rosaleda y las luces de neón de Tokio, ambos descubrirán que la verdadera gloria no está en los estadios ni en las pantallas, sino en el refugio que han construido juntos.</p>
@@ -123,7 +123,7 @@ export default function KarmaStudiosWeb() {
 
             {/* Novela 4 */}
             <div className="flex flex-col md:flex-row gap-8 bg-black/30 p-6 rounded-2xl border border-white/5">
-              <img src="/EMYC.jpg" alt="Entre Mundos y Corazones" className="w-full md:w-64 rounded-xl shadow-lg" />
+              <img src="/EMYC.png" alt="Entre Mundos y Corazones" className="w-full md:w-64 rounded-xl shadow-lg" />
               <div className="space-y-4 flex flex-col justify-center">
                 <h3 className="text-2xl font-bold text-white">Entre Mundos y Corazones</h3>
                 <p className="text-gray-300">En Córdoba, Nacho, Rafa y Alex conocen a Ai, Asuka y Sumi, chicas de anime que aparecen sin explicación. Viven juntos, surgen romances y malentendidos. Que destino les esperara al nuevo grupo de amigos.... o, algo mas?</p>
@@ -142,7 +142,7 @@ export default function KarmaStudiosWeb() {
             <div className="mt-20 border-t-2 border-[#5227FF] pt-12">
               <div className="inline-block px-4 py-1 rounded-full bg-[#5227FF]/20 text-[#5227FF] font-bold text-sm tracking-widest mb-6">NOVELA PRINCIPAL</div>
               <div className="flex flex-col md:flex-row gap-8 bg-gradient-to-br from-[#1A0D33] to-black/60 p-8 rounded-3xl border border-[#5227FF]/40 shadow-[0_0_40px_rgba(82,39,255,0.15)]">
-                <img src="/YEAR2.jpg" alt="La Estrella Que No Buscaba" className="w-full md:w-72 rounded-xl shadow-2xl" />
+                <img src="/YEAR2.png" alt="La Estrella Que No Buscaba" className="w-full md:w-72 rounded-xl shadow-2xl" />
                 <div className="space-y-4 flex flex-col justify-center">
                   <h3 className="text-3xl font-bold text-white">La Estrella Que No Buscaba</h3>
                   <p className="text-gray-300 text-sm md:text-base leading-relaxed">Alex aterriza en Tokio junto a su caótico grupo de amigos, «Los Toritos», con un plan claro: exprimir al máximo sus años en la universidad. Lo que no entraba en sus cálculos era que su carisma lo llevaría directo a Ichigo Productions, lanzándolo sin frenos al deslumbrante y exigente mundo del espectáculo japonés. En un principio, su atención es cautivada por un misterio inalcanzable: la idol perfecta, Ai Hoshino. Sin embargo, sobrevivir en la industria requiere sudor, talento y saber lidiar con el ego de sus compañeros. Entre la locura de la convivencia en la mansión, los extenuantes ensayos teatrales y los constantes choques de orgullo con cierta "niña prodigio" de la actuación que no soporta su actitud desenfadada, las líneas entre el guion y la realidad comenzarán a difuminarse. A medida que el telón de la obra más importante de su vida se cierra, Alex descubrirá que las estrellas del cielo son hermosas de admirar, pero el fuego que de verdad te roba el aliento suele esconderse bajo el sarcasmo, las discusiones diarias y la mirada de quien menos te lo esperas.</p>
